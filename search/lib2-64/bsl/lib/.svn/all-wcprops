@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib
+END
+libbsl_buffer.a
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_buffer.a
+END
+libbsl_pool.a
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_pool.a
+END
+libbsl_exception.a
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_exception.a
+END
+libbsl.a
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl.a
+END
+libbsl_utils.a
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_utils.a
+END
+libbsl_ResourcePool.a
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_ResourcePool.a
+END
+libbsl_archive.a
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_archive.a
+END
+libbsl_var_implement.a
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_var_implement.a
+END
+libbsl_check_cast.a
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_check_cast.a
+END
+libbsl_var.a
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_var.a
+END
+libbsl_var_utils.a
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/lib/libbsl_var_utils.a
+END

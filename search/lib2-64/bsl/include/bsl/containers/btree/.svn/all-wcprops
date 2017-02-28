@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree
+END
+df_2d_ary.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/df_2d_ary.h
+END
+bsl_kv_btree_data_unit.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/bsl_kv_btree_data_unit.h
+END
+df_log.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/df_log.h
+END
+df_xz_btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/df_xz_btree.h
+END
+bsl_kv_btree_adapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/bsl_kv_btree_adapter.h
+END
+bsl_kv_btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/bsl_kv_btree.h
+END
+bsl_kv_btree_xmemcpy.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/bsl_kv_btree_xmemcpy.h
+END
+df_misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/df_misc.h
+END
+df_def.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/df_def.h
+END
+df_bitops.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/df_bitops.h
+END
+df_btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/df_btree.h
+END
+bsl_kv_btree_iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/bsl_kv_btree_iterator.h
+END
+gen_xmemcpy_h.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/gen_xmemcpy_h.py
+END
+df_atomic.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/df_atomic.h
+END
+bsl_kv_btree_archive_traits.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/bsl_kv_btree_archive_traits.h
+END

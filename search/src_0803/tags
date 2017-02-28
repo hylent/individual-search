@@ -1,0 +1,581 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADD	dict/include/ul_dict.h	/^ADD,		\/\/for dict building	: have been in dict(f++) not(add)$/;"	e	enum:__anon1
+BASE_DICT_NUM	dict/include/ul_dict.h	40;"	d
+BASE_PER100	dict/include/ul_index.h	24;"	d
+BASE_SIGN	dict/include/ul_dict.h	37;"	d
+BFURL_CACHE_FLAG	dict/include/ul_index.h	32;"	d
+BFURL_CODETYPE	dict/include/ul_index.h	33;"	d
+BIG_DICT_HNUM	dict/include/ul_dict.h	41;"	d
+CLUSTER	dict/include/ul_dict.h	/^CLUSTER,	\/\/for searcher cluster	: same sign -> keep the high weight$/;"	e	enum:__anon1
+Collector	rank.cpp	/^Collector::Collector(Indexer* inpar) : _indexer(inpar) {$/;"	f	class:cute_engine::Collector	signature:(Indexer* inpar)
+DEBUG	searcher.cpp	31;"	d	file:
+DEL	dict/include/ul_dict.h	/^DEL,		\/\/for dict building	: del by sign$/;"	e	enum:__anon1
+Dcpoff	dict/include/ul_dict.h	27;"	d
+Dfreq	dict/include/ul_dict.h	24;"	d
+Dindex2	dict/include/ul_index.h	38;"	d
+Dlweight	dict/include/ul_dict.h	23;"	d
+Dterm	dict/include/ul_dict.h	25;"	d
+Durlno	dict/include/ul_index.h	37;"	d
+Dweight	dict/include/ul_index.h	36;"	d
+Eop_method	dict/include/ul_dict.h	/^} Eop_method;$/;"	t	typeref:enum:__anon1
+IND2_NUM_PER_FILE	dict/include/ul_dict.h	43;"	d
+Indexer	indexer.cpp	/^Indexer::Indexer(){$/;"	f	class:cute_engine::Indexer	signature:()
+Indexer	indexer.cpp	/^Indexer::Indexer(char* path){$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+MAX_LIMIT_PAGE_NUM	dict/include/ul_index.h	25;"	d
+MAX_SQRT_NUM	dict/include/ul_dict.h	38;"	d
+MAX_URL_PER_TERM	dict/include/ul_index.h	19;"	d
+MERGE_FILE_NUM	dict/include/ul_index.h	22;"	d
+MERGE_INDEX_SLOT	dict/include/ul_index.h	23;"	d
+MID_NODE_NUM	dict/include/ul_dict.h	36;"	d
+MOD	dict/include/ul_dict.h	/^MOD,		\/\/for dict building	: modify the struct of dict$/;"	e	enum:__anon1
+MODC	dict/include/ul_dict.h	/^MODC		\/\/for dict searching	: term code$/;"	e	enum:__anon1
+MODF	dict/include/ul_dict.h	/^MODF,		\/\/for dict searching	: frequence$/;"	e	enum:__anon1
+MODW	dict/include/ul_dict.h	/^MODW,		\/\/for dict searching	: lowest weight$/;"	e	enum:__anon1
+NODE_BLOCK_NUM	dict/include/ul_dict.h	35;"	d
+PHRASE_IND1_NUM	dict/include/ul_dict.h	33;"	d
+PRIME_USED_24_1	dict/include/ul_prime.h	10;"	d
+PRIME_USED_24_2	dict/include/ul_prime.h	12;"	d
+PRIME_USED_24_3	dict/include/ul_prime.h	14;"	d
+PRIME_USED_31	dict/include/ul_prime.h	8;"	d
+RESULT_SIZE	rank.cpp	26;"	d	file:
+Rank	rank.cpp	/^Rank::Rank(){$/;"	f	class:cute_engine::Rank	signature:()
+Rank	rank.cpp	/^Rank::Rank(std::vector<Collector> invec){$/;"	f	class:cute_engine::Rank	signature:(std::vector<Collector> invec)
+SEEK	dict/include/ul_dict.h	/^SEEK,		\/\/for dict building	: seek by sign$/;"	e	enum:__anon1
+SEEKP	dict/include/ul_dict.h	/^SEEKP,		\/\/for parser identify	: found -> dict freq ++$/;"	e	enum:__anon1
+SURL_NUM_PER_FILE	dict/include/ul_index.h	21;"	d
+SUR_IND1_NUM	dict/include/ul_dict.h	34;"	d
+Sdict_bhash	dict/include/ul_dict.h	/^} Sdict_bhash;$/;"	t	typeref:struct:__anon2
+Sdict_bnode	dict/include/ul_dict.h	/^typedef struct ss_dict_build_node Sdict_bnode;$/;"	t	typeref:struct:ss_dict_build_node
+Sdict_bnode_block	dict/include/ul_dict.h	/^typedef struct ss_dict_build_node_block	Sdict_bnode_block;$/;"	t	typeref:struct:ss_dict_build_node_block
+Sdict_build	dict/include/ul_dict.h	/^} Sdict_build;$/;"	t	typeref:struct:__anon3
+Sdict_build_syn	dict/include/ul_dict.h	/^} Sdict_build_syn;$/;"	t	typeref:struct:__anon16
+Sdict_cphrase	dict/include/ul_dict.h	/^} Sdict_cphrase;$/;"	t	typeref:struct:__anon12
+Sdict_phrase	dict/include/ul_dict.h	/^} Sdict_phrase;$/;"	t	typeref:struct:__anon14
+Sdict_reclaim	dict/include/ul_drdict.h	/^} Sdict_reclaim;$/;"	t	typeref:struct:__anon19
+Sdict_search	dict/include/ul_dict.h	/^} Sdict_search;$/;"	t	typeref:struct:__anon9
+Sdict_search_hd	dict/include/ul_dict.h	/^}Sdict_search_hd;$/;"	t	typeref:struct:__anon10
+Sdict_search_syn	dict/include/ul_dict.h	/^} Sdict_search_syn;$/;"	t	typeref:struct:__anon18
+Sdict_snode	dict/include/ul_dict.h	/^} Sdict_snode;$/;"	t	typeref:struct:__anon8
+Sdict_syn_bhash	dict/include/ul_dict.h	/^} Sdict_syn_bhash;$/;"	t	typeref:struct:__anon15
+Sdict_syn_bnode	dict/include/ul_dict.h	/^typedef struct ss_dict_build_syn_node Sdict_syn_bnode;$/;"	t	typeref:struct:ss_dict_build_syn_node
+Sdict_syn_bnode_block	dict/include/ul_dict.h	/^typedef struct ss_dict_syn_build_node_block	Sdict_syn_bnode_block;$/;"	t	typeref:struct:ss_dict_syn_build_node_block
+Sdict_syn_buf_block	dict/include/ul_dict.h	/^typedef struct ss_dict_syn_buffer_block	Sdict_syn_buf_block;$/;"	t	typeref:struct:ss_dict_syn_buffer_block
+Sdict_syn_snode	dict/include/ul_dict.h	/^} Sdict_syn_snode;$/;"	t	typeref:struct:__anon17
+Searcher	searcher.cpp	/^Searcher::Searcher():_pword_segment(NULL), _pindex(NULL), _prank(NULL){$/;"	f	class:cute_engine::Searcher	signature:()
+Searcher	searcher.cpp	/^Searcher::Searcher(char* index_path):{$/;"	f	class:cute_engine::Searcher	signature:(char* index_path)
+Segment	segment.cpp	/^Segment::Segment(char* path)$/;"	f	class:cute_engine::Segment	signature:(char* path)
+Shash_cphrase	dict/include/ul_dict.h	/^} Shash_cphrase;$/;"	t	typeref:struct:__anon11
+Shash_phrase	dict/include/ul_dict.h	/^} Shash_phrase;$/;"	t	typeref:struct:__anon13
+SimRank	rank.cpp	/^SimRank::SimRank(std::vector<Collector> invec):Rank(invec){$/;"	f	class:cute_engine::SimRank	signature:(std::vector<Collector> invec)
+Sindex1	dict/include/ul_index.h	/^} Sindex1;$/;"	t	typeref:struct:__anon20
+Sindex2	dict/include/ul_index.h	/^} Sindex2;$/;"	t	typeref:struct:__anon21
+Skeyweight	dict/include/ul_dict.h	/^} Skeyweight;$/;"	t	typeref:struct:__anon4
+Skeyweightlist	dict/include/ul_dict.h	/^} Skeyweightlist;$/;"	t	typeref:struct:__anon5
+Slinkcode	dict/include/ul_index.h	/^} Slinkcode;$/;"	t	typeref:struct:__anon24
+Slinksign	dict/include/ul_index.h	/^} Slinksign;$/;"	t	typeref:struct:__anon23
+Slongindex2	dict/include/ul_dict.h	/^} Slongindex2;$/;"	t	typeref:struct:__anon6
+Spagecluster	dict/include/ul_dict.h	/^} Spagecluster;$/;"	t	typeref:struct:__anon7
+Surlbrief	dict/include/ul_index.h	/^} Surlbrief;$/;"	t	typeref:struct:__anon22
+UL_DRDICT_H	dict/include/ul_drdict.h	6;"	d
+URL_DICT_DEL	dict/include/ul_index.h	28;"	d
+URL_DICT_SRC	dict/include/ul_index.h	27;"	d
+WORDBUFSIZE	dict/include/ul_dict.h	188;"	d
+WORDDELIMITER	dict/include/ul_dict.h	44;"	d
+WORKPATH	dict/include/ul_index.h	18;"	d
+WordDict	word_dict.cpp	/^WordDict::WordDict(){$/;"	f	class:cute_engine::WordDict	signature:()
+_UL_PRIME_H_	dict/include/ul_prime.h	6;"	d
+_UL_URL_SIGN_H_	dict/include/ul_url_sign.h	4;"	d
+__CHARSET_H__	dict/include/ul_charset.h	2;"	d
+__DICT_H__	dict/include/ul_dict.h	14;"	d
+__INDEX_H__	dict/include/ul_index.h	14;"	d
+__UL_SIGN_H__	dict/include/ul_sign.h	13;"	d
+__UTIL_H__	dict/include/ul_util.h	6;"	d
+__anon10::cur_code	dict/include/ul_dict.h	/^	int cur_code;$/;"	m	struct:__anon10	access:public
+__anon10::find1	dict/include/ul_dict.h	/^	int find1;$/;"	m	struct:__anon10	access:public
+__anon10::find2	dict/include/ul_dict.h	/^	int find2;$/;"	m	struct:__anon10	access:public
+__anon10::hash_num	dict/include/ul_dict.h	/^	int hash_num;$/;"	m	struct:__anon10	access:public
+__anon10::node_num	dict/include/ul_dict.h	/^	int node_num;$/;"	m	struct:__anon10	access:public
+__anon11::num	dict/include/ul_dict.h	/^	int num;$/;"	m	struct:__anon11	access:public
+__anon11::off	dict/include/ul_dict.h	/^	int off;$/;"	m	struct:__anon11	access:public
+__anon12::hash	dict/include/ul_dict.h	/^	Shash_cphrase *hash;$/;"	m	struct:__anon12	access:public
+__anon12::phrase	dict/include/ul_dict.h	/^	unsigned char *phrase;$/;"	m	struct:__anon12	access:public
+__anon12::surname	dict/include/ul_dict.h	/^	char	      *surname;$/;"	m	struct:__anon12	access:public
+__anon13::num	dict/include/ul_dict.h	/^	int num;$/;"	m	struct:__anon13	access:public
+__anon13::off	dict/include/ul_dict.h	/^	int off;$/;"	m	struct:__anon13	access:public
+__anon14::hash	dict/include/ul_dict.h	/^	Shash_phrase	*hash;$/;"	m	struct:__anon14	access:public
+__anon14::phrase	dict/include/ul_dict.h	/^	char		*phrase;$/;"	m	struct:__anon14	access:public
+__anon15::pnode	dict/include/ul_dict.h	/^	Sdict_syn_bnode	*pnode;	\/\/hash table$/;"	m	struct:__anon15	access:public
+__anon16::bufblock	dict/include/ul_dict.h	/^	Sdict_syn_buf_block	*bufblock;	\/\/ first buffer block$/;"	m	struct:__anon16	access:public
+__anon16::cur_buf	dict/include/ul_dict.h	/^	int			cur_buf;	\/\/ available buffer$/;"	m	struct:__anon16	access:public
+__anon16::cur_bufblock	dict/include/ul_dict.h	/^	Sdict_syn_buf_block	*cur_bufblock;	\/\/ current buffer block$/;"	m	struct:__anon16	access:public
+__anon16::cur_nblock	dict/include/ul_dict.h	/^	Sdict_syn_bnode_block	*cur_nblock;	\/\/ current node block$/;"	m	struct:__anon16	access:public
+__anon16::cur_node	dict/include/ul_dict.h	/^	Sdict_syn_bnode		*cur_node;	\/\/ current node$/;"	m	struct:__anon16	access:public
+__anon16::hash	dict/include/ul_dict.h	/^	Sdict_syn_bhash	*hash;	\/\/ hash$/;"	m	struct:__anon16	access:public
+__anon16::hash_num	dict/include/ul_dict.h	/^	int	hash_num;	\/\/ number of hash$/;"	m	struct:__anon16	access:public
+__anon16::nblock	dict/include/ul_dict.h	/^	Sdict_syn_bnode_block	*nblock;	\/\/ first node block$/;"	m	struct:__anon16	access:public
+__anon16::node_avail	dict/include/ul_dict.h	/^	int			node_avail;	\/\/ available node_num in cur_nblock$/;"	m	struct:__anon16	access:public
+__anon16::node_num	dict/include/ul_dict.h	/^	int	node_num;	\/\/ number of nodes$/;"	m	struct:__anon16	access:public
+__anon16::nrbufblock	dict/include/ul_dict.h	/^	int			nrbufblock;	\/\/ number of buffer blocks$/;"	m	struct:__anon16	access:public
+__anon16::pdword	dict/include/ul_dict.h	/^	Sdict_build		*pdword;	\/\/ word dictionary$/;"	m	struct:__anon16	access:public
+__anon16::words	dict/include/ul_dict.h	/^	int			words;$/;"	m	struct:__anon16	access:public
+__anon17::sign1	dict/include/ul_dict.h	/^	u_int 	sign1;	\/\/signatures of word 1$/;"	m	struct:__anon17	access:public
+__anon17::sign2	dict/include/ul_dict.h	/^	u_int 	sign2;$/;"	m	struct:__anon17	access:public
+__anon17::sign3	dict/include/ul_dict.h	/^	u_int	sign3;	\/\/signatures of word 2$/;"	m	struct:__anon17	access:public
+__anon17::sign4	dict/include/ul_dict.h	/^	u_int	sign4;$/;"	m	struct:__anon17	access:public
+__anon18::hash	dict/include/ul_dict.h	/^	unsigned int	*hash;	\/\/ hash$/;"	m	struct:__anon18	access:public
+__anon18::hash_num	dict/include/ul_dict.h	/^	int	hash_num;$/;"	m	struct:__anon18	access:public
+__anon18::node	dict/include/ul_dict.h	/^	Sdict_syn_snode	*node;	\/\/ nodes$/;"	m	struct:__anon18	access:public
+__anon18::node_num	dict/include/ul_dict.h	/^	int	node_num;$/;"	m	struct:__anon18	access:public
+__anon18::num	dict/include/ul_dict.h	/^	unsigned int 	*num;	\/\/ number of nodes in hash entries$/;"	m	struct:__anon18	access:public
+__anon18::pdword	dict/include/ul_dict.h	/^	Sdict_search	*pdword;\/\/ word dictionary$/;"	m	struct:__anon18	access:public
+__anon18::wordbuffer	dict/include/ul_dict.h	/^	char		*wordbuffer;$/;"	m	struct:__anon18	access:public
+__anon19::cur_code	dict/include/ul_drdict.h	/^	int	cur_code;	\/\/ current minimum unused term code$/;"	m	struct:__anon19	access:public
+__anon19::cur_nblock	dict/include/ul_drdict.h	/^	Sdict_bnode_block	*cur_nblock;	\/\/current block$/;"	m	struct:__anon19	access:public
+__anon19::cur_node	dict/include/ul_drdict.h	/^	Sdict_bnode		*cur_node;	\/\/current node$/;"	m	struct:__anon19	access:public
+__anon19::hash	dict/include/ul_drdict.h	/^	Sdict_bhash	*hash;	\/\/ hash$/;"	m	struct:__anon19	access:public
+__anon19::hash_num	dict/include/ul_drdict.h	/^	int	hash_num;	\/\/ number of hash$/;"	m	struct:__anon19	access:public
+__anon19::nblock	dict/include/ul_drdict.h	/^	Sdict_bnode_block	*nblock;	\/\/first block$/;"	m	struct:__anon19	access:public
+__anon19::node_avail	dict/include/ul_drdict.h	/^	int			node_avail;	\/\/avail node_num in cur_b$/;"	m	struct:__anon19	access:public
+__anon19::node_num	dict/include/ul_drdict.h	/^	int	node_num;	\/\/ number of nodes$/;"	m	struct:__anon19	access:public
+__anon19::reclaim_node	dict/include/ul_drdict.h	/^	Sdict_bnode *reclaim_node;$/;"	m	struct:__anon19	access:public
+__anon20::num	dict/include/ul_index.h	/^	int num;	\/\/ number of this index$/;"	m	struct:__anon20	access:public
+__anon20::off	dict/include/ul_index.h	/^	int off; 	\/\/ offset in index2$/;"	m	struct:__anon20	access:public
+__anon21::url_no	dict/include/ul_index.h	/^	unsigned url_no : 25;	\/\/ url_no$/;"	m	struct:__anon21	access:public
+__anon21::weight	dict/include/ul_index.h	/^ 	unsigned weight : 7;	\/\/ weight$/;"	m	struct:__anon21	access:public
+__anon22::code_type	dict/include/ul_index.h	/^	short code_type;	\/\/ code type of content $/;"	m	struct:__anon22	access:public
+__anon22::con_sign1	dict/include/ul_index.h	/^	u_int con_sign1;	\/\/ signature of the content of the url$/;"	m	struct:__anon22	access:public
+__anon22::con_sign2	dict/include/ul_index.h	/^	u_int con_sign2;	\/\/ signature of the content of the url$/;"	m	struct:__anon22	access:public
+__anon22::ip_region	dict/include/ul_index.h	/^	short ip_region;	\/\/ ip region$/;"	m	struct:__anon22	access:public
+__anon22::lastmod_time	dict/include/ul_index.h	/^	u_int lastmod_time;	\/\/ lastmodify time $/;"	m	struct:__anon22	access:public
+__anon22::site_sign1	dict/include/ul_index.h	/^	u_int site_sign1;	\/\/ signature of the site$/;"	m	struct:__anon22	access:public
+__anon22::site_sign2	dict/include/ul_index.h	/^	u_int site_sign2;	\/\/ signature of the site$/;"	m	struct:__anon22	access:public
+__anon23::term_sign1	dict/include/ul_index.h	/^	u_int term_sign1;$/;"	m	struct:__anon23	access:public
+__anon23::term_sign2	dict/include/ul_index.h	/^	u_int term_sign2;$/;"	m	struct:__anon23	access:public
+__anon23::url_sign1	dict/include/ul_index.h	/^	u_int url_sign1;$/;"	m	struct:__anon23	access:public
+__anon23::url_sign2	dict/include/ul_index.h	/^	u_int url_sign2;$/;"	m	struct:__anon23	access:public
+__anon23::weight	dict/include/ul_index.h	/^	u_int weight;$/;"	m	struct:__anon23	access:public
+__anon24::term_code	dict/include/ul_index.h	/^	u_int term_code;$/;"	m	struct:__anon24	access:public
+__anon24::url_code	dict/include/ul_index.h	/^	unsigned url_code : 25;$/;"	m	struct:__anon24	access:public
+__anon24::weight	dict/include/ul_index.h	/^	unsigned weight : 7;$/;"	m	struct:__anon24	access:public
+__anon2::pnode	dict/include/ul_dict.h	/^	Sdict_bnode	*pnode;	\/\/hash table$/;"	m	struct:__anon2	access:public
+__anon3::cur_code	dict/include/ul_dict.h	/^	int	cur_code;	\/\/ current minimum unused term code$/;"	m	struct:__anon3	access:public
+__anon3::cur_nblock	dict/include/ul_dict.h	/^	Sdict_bnode_block	*cur_nblock;	\/\/current block$/;"	m	struct:__anon3	access:public
+__anon3::cur_node	dict/include/ul_dict.h	/^	Sdict_bnode		*cur_node;	\/\/current node$/;"	m	struct:__anon3	access:public
+__anon3::hash	dict/include/ul_dict.h	/^	Sdict_bhash	*hash;	\/\/ hash$/;"	m	struct:__anon3	access:public
+__anon3::hash_num	dict/include/ul_dict.h	/^	int	hash_num;	\/\/ number of hash$/;"	m	struct:__anon3	access:public
+__anon3::nblock	dict/include/ul_dict.h	/^	Sdict_bnode_block	*nblock;	\/\/first block$/;"	m	struct:__anon3	access:public
+__anon3::node_avail	dict/include/ul_dict.h	/^	int			node_avail;	\/\/avail node_num in cur_b$/;"	m	struct:__anon3	access:public
+__anon3::node_num	dict/include/ul_dict.h	/^	int	node_num;	\/\/ number of nodes$/;"	m	struct:__anon3	access:public
+__anon4::sign1	dict/include/ul_dict.h	/^	u_int sign1;$/;"	m	struct:__anon4	access:public
+__anon4::sign2	dict/include/ul_dict.h	/^	u_int sign2;$/;"	m	struct:__anon4	access:public
+__anon4::weight	dict/include/ul_dict.h	/^	int weight;$/;"	m	struct:__anon4	access:public
+__anon5::key	dict/include/ul_dict.h	/^	Skeyweight 	*key;$/;"	m	struct:__anon5	access:public
+__anon5::num	dict/include/ul_dict.h	/^	int 		num;$/;"	m	struct:__anon5	access:public
+__anon6::urlno	dict/include/ul_dict.h	/^	unsigned int	urlno;$/;"	m	struct:__anon6	access:public
+__anon6::weight	dict/include/ul_dict.h	/^	unsigned int	weight;$/;"	m	struct:__anon6	access:public
+__anon7::index2	dict/include/ul_dict.h	/^	void		*index2;$/;"	m	struct:__anon7	access:public
+__anon7::num	dict/include/ul_dict.h	/^	int		num;$/;"	m	struct:__anon7	access:public
+__anon7::rept	dict/include/ul_dict.h	/^	int		*rept;$/;"	m	struct:__anon7	access:public
+__anon8::code	dict/include/ul_dict.h	/^	int 	code;		\/\/term code$/;"	m	struct:__anon8	access:public
+__anon8::other	dict/include/ul_dict.h	/^	u_int 	other;	\/\/(7:lowest_w+25:freq)$/;"	m	struct:__anon8	access:public
+__anon8::sign1	dict/include/ul_dict.h	/^	u_int 	sign1;		\/\/signature 1$/;"	m	struct:__anon8	access:public
+__anon8::sign2	dict/include/ul_dict.h	/^	u_int 	sign2;		\/\/signature 2$/;"	m	struct:__anon8	access:public
+__anon9::cur_code	dict/include/ul_dict.h	/^	int 	cur_code;	\/\/ current minimum code$/;"	m	struct:__anon9	access:public
+__anon9::hash	dict/include/ul_dict.h	/^	unsigned int	*hash;	\/\/ hash$/;"	m	struct:__anon9	access:public
+__anon9::hash_num	dict/include/ul_dict.h	/^	int	hash_num;$/;"	m	struct:__anon9	access:public
+__anon9::node	dict/include/ul_dict.h	/^	Sdict_snode	*node;	\/\/ nodes$/;"	m	struct:__anon9	access:public
+__anon9::node_num	dict/include/ul_dict.h	/^	int	node_num;$/;"	m	struct:__anon9	access:public
+__anon9::num	dict/include/ul_dict.h	/^	unsigned int 	*num;	\/\/ number of nodes in hash entries$/;"	m	struct:__anon9	access:public
+add_inverted_term	indexer.cpp	/^void Indexer::add_inverted_term(const size_t& term_id, const WordItem& item) {$/;"	f	class:cute_engine::Indexer	signature:(const size_t& term_id, const WordItem& item)
+assign_index_work	dict/include/ul_index.h	/^int assign_index_work(char *path, char *fnsrc, char *fndes);$/;"	p	signature:(char *path, char *fnsrc, char *fndes)
+buf	dict/include/ul_dict.h	/^	char	buf[WORDBUFSIZE];	\/\/buffer block for words$/;"	m	struct:ss_dict_syn_buffer_block	access:public
+bufblock	dict/include/ul_dict.h	/^	Sdict_syn_buf_block	*bufblock;	\/\/ first buffer block$/;"	m	struct:__anon16	access:public
+build_brief_info	dict/include/ul_index.h	/^int build_brief_info(char *path, char *sfn_site, char *dfn_brief);$/;"	p	signature:(char *path, char *sfn_site, char *dfn_brief)
+build_document_info	indexer.cpp	/^void Indexer::build_document_info(const std::vector<std::string>& doc_vec, DocumentInfo& info){$/;"	f	class:cute_engine::Indexer	signature:(const std::vector<std::string>& doc_vec, DocumentInfo& info)
+build_forward_index	indexer.cpp	/^void Indexer::build_forward_index(char* raw_data_path, char* output_path){$/;"	f	class:cute_engine::Indexer	signature:(char* raw_data_path, char* output_path)
+build_inverted_index_from_file	indexer.cpp	/^void Indexer::build_inverted_index_from_file(char* data_path, char* dict_path, char* output_path){$/;"	f	class:cute_engine::Indexer	signature:(char* data_path, char* dict_path, char* output_path)
+build_part_index	dict/include/ul_index.h	/^int build_part_index(char *path, char* fn_dict, char *fn_url,$/;"	p	signature:(char *path, char* fn_dict, char *fn_url, int cur_parno)
+build_term_dict	dict/include/ul_index.h	/^int build_term_dict(char *path, char *sfterm, char *dfdict, char *dfterm);$/;"	p	signature:(char *path, char *sfterm, char *dfdict, char *dfterm)
+code	dict/include/ul_dict.h	/^	int 	code;		\/\/term code$/;"	m	struct:__anon8	access:public
+code	dict/include/ul_dict.h	/^	int 	code;	\/\/term code$/;"	m	struct:ss_dict_build_node	access:public
+code_type	dict/include/ul_index.h	/^	short code_type;	\/\/ code type of content $/;"	m	struct:__anon22	access:public
+coding_link	dict/include/ul_index.h	/^int coding_link(Sdict_search *pterm, Sdict_search *purl, char *path,$/;"	p	signature:(Sdict_search *pterm, Sdict_search *purl, char *path, char *fnsrc, char *fndes)
+coding_term2	dict/include/ul_index.h	/^int coding_term2(char *path, char *fndict, char *fnterm2, char *fnterm3);$/;"	p	signature:(char *path, char *fndict, char *fnterm2, char *fnterm3)
+collector_sort	rank.cpp	/^bool Rank::collector_sort(Collector a,Collector b){$/;"	f	class:cute_engine::Rank	signature:(Collector a,Collector b)
+con_sign1	dict/include/ul_index.h	/^	u_int con_sign1;	\/\/ signature of the content of the url$/;"	m	struct:__anon22	access:public
+con_sign2	dict/include/ul_index.h	/^	u_int con_sign2;	\/\/ signature of the content of the url$/;"	m	struct:__anon22	access:public
+creat_parser_dict	dict/include/ul_dict.h	/^int creat_parser_dict(char *path, char *fnold_dict, char *fnnew_dict,$/;"	p	signature:(char *path, char *fnold_dict, char *fnnew_dict, char *fn_lw)
+creat_search_dict	dict/include/ul_dict.h	/^int creat_search_dict(char *path, char *fnold_dict, char *fnnew_dict,$/;"	p	signature:(char *path, char *fnold_dict, char *fnnew_dict, char *fn_dbfreq)
+creat_sign32	dict/include/ul_dict.h	/^u_int creat_sign32(char *str_src);$/;"	p	signature:(char *str_src)
+creat_sign64	dict/include/ul_dict.h	/^int creat_sign64(char *str_src, u_int *psign1, u_int *psign2);$/;"	p	signature:(char *str_src, u_int *psign1, u_int *psign2)
+creat_sign_7_host	dict/include/ul_sign.h	/^int creat_sign_7_host (char* psrc, int slen, unsigned int* sign1 , unsigned int* sign2);$/;"	p	signature:(char* psrc, int slen, unsigned int* sign1 , unsigned int* sign2)
+creat_sign_f64	dict/include/ul_sign.h	/^int creat_sign_f64 (char* psrc, int slen, unsigned int* sign1 , unsigned int* sign2);$/;"	p	signature:(char* psrc, int slen, unsigned int* sign1 , unsigned int* sign2)
+creat_sign_fs64	dict/include/ul_sign.h	/^int creat_sign_fs64 (char* psrc, int slen, unsigned int* sign1 , unsigned int* sign2);$/;"	p	signature:(char* psrc, int slen, unsigned int* sign1 , unsigned int* sign2)
+creat_sign_md64	dict/include/ul_sign.h	/^int creat_sign_md64(char* psrc,int slen,unsigned int* sign1,unsigned int*sign2);$/;"	p	signature:(char* psrc,int slen,unsigned int* sign1,unsigned int*sign2)
+creat_sign_mds64	dict/include/ul_sign.h	/^int creat_sign_mds64(char* psrc,int slen,unsigned int* sign1,unsigned int*sign2);$/;"	p	signature:(char* psrc,int slen,unsigned int* sign1,unsigned int*sign2)
+creat_sign_murmur64	dict/include/ul_sign.h	/^int creat_sign_murmur64(const char* psrc,int slen,unsigned int* sign1,unsigned int*sign2,unsigned int seed=0);$/;"	p	signature:(const char* psrc,int slen,unsigned int* sign1,unsigned int*sign2,unsigned int seed=0)
+creat_sign_murmurs64	dict/include/ul_sign.h	/^int creat_sign_murmurs64(const char* psrc,int slen,unsigned int *sign1,unsigned int *sign2,unsigned int seed=0);$/;"	p	signature:(const char* psrc,int slen,unsigned int *sign1,unsigned int *sign2,unsigned int seed=0)
+creat_sign_nt64	dict/include/ul_dict.h	/^int creat_sign_nt64(void *t_src, int t_size, char *pstr, $/;"	p	signature:(void *t_src, int t_size, char *pstr, u_int *psign1, u_int *psign2)
+creat_sign_t256	dict/include/ul_dict.h	/^int creat_sign_t256(char *psrc, int slen, u_int* psign1, u_int* psign2);$/;"	p	signature:(char *psrc, int slen, u_int* psign1, u_int* psign2)
+creat_sign_t64	dict/include/ul_dict.h	/^int creat_sign_t64(void *t_src, int t_size, char *pstr, $/;"	p	signature:(void *t_src, int t_size, char *pstr, u_int *psign1, u_int *psign2)
+creat_stand_dict	dict/include/ul_dict.h	/^int creat_stand_dict(char *path, char *fnsrc, char *fndes, int num );$/;"	p	signature:(char *path, char *fnsrc, char *fndes, int num )
+creat_term_sign	dict/include/ul_dict.h	/^u_int creat_term_sign(char *str_src);$/;"	p	signature:(char *str_src)
+creat_vice_dict	dict/include/ul_dict.h	/^int creat_vice_dict(char *path, char *fnbase_dict, char *fnold_dict, $/;"	p	signature:(char *path, char *fnbase_dict, char *fnold_dict, char *fnnew_dict, char *fn_dbfreq)
+create_url_sign	dict/include/ul_url_sign.h	/^int create_url_sign(const char *urlstr,unsigned int site_sign[2],unsigned int url_sign[2]);$/;"	p	signature:(const char *urlstr,unsigned int site_sign[2],unsigned int url_sign[2])
+create_url_sign	dict/include/ul_url_sign.h	/^int create_url_sign(const char* urlstr, unsigned long long& site_sign, unsigned long long& url_sign);$/;"	p	signature:(const char* urlstr, unsigned long long& site_sign, unsigned long long& url_sign)
+create_url_sign2	dict/include/ul_url_sign.h	/^int create_url_sign2(const char *urlstr,unsigned int site_sign[2],unsigned int url_sign[2]);$/;"	p	signature:(const char *urlstr,unsigned int site_sign[2],unsigned int url_sign[2])
+create_url_sign2	dict/include/ul_url_sign.h	/^int create_url_sign2(const char* urlstr, unsigned long long& site_sign, unsigned long long& url_sign);$/;"	p	signature:(const char* urlstr, unsigned long long& site_sign, unsigned long long& url_sign)
+cur_buf	dict/include/ul_dict.h	/^	int			cur_buf;	\/\/ available buffer$/;"	m	struct:__anon16	access:public
+cur_bufblock	dict/include/ul_dict.h	/^	Sdict_syn_buf_block	*cur_bufblock;	\/\/ current buffer block$/;"	m	struct:__anon16	access:public
+cur_code	dict/include/ul_dict.h	/^	int	cur_code;	\/\/ current minimum unused term code$/;"	m	struct:__anon3	access:public
+cur_code	dict/include/ul_dict.h	/^	int 	cur_code;	\/\/ current minimum code$/;"	m	struct:__anon9	access:public
+cur_code	dict/include/ul_dict.h	/^	int cur_code;$/;"	m	struct:__anon10	access:public
+cur_code	dict/include/ul_drdict.h	/^	int	cur_code;	\/\/ current minimum unused term code$/;"	m	struct:__anon19	access:public
+cur_nblock	dict/include/ul_dict.h	/^	Sdict_bnode_block	*cur_nblock;	\/\/current block$/;"	m	struct:__anon3	access:public
+cur_nblock	dict/include/ul_dict.h	/^	Sdict_syn_bnode_block	*cur_nblock;	\/\/ current node block$/;"	m	struct:__anon16	access:public
+cur_nblock	dict/include/ul_drdict.h	/^	Sdict_bnode_block	*cur_nblock;	\/\/current block$/;"	m	struct:__anon19	access:public
+cur_node	dict/include/ul_dict.h	/^	Sdict_bnode		*cur_node;	\/\/current node$/;"	m	struct:__anon3	access:public
+cur_node	dict/include/ul_dict.h	/^	Sdict_syn_bnode		*cur_node;	\/\/ current node$/;"	m	struct:__anon16	access:public
+cur_node	dict/include/ul_drdict.h	/^	Sdict_bnode		*cur_node;	\/\/current node$/;"	m	struct:__anon19	access:public
+cute_engine	indexer.cpp	/^namespace cute_engine{$/;"	n	file:
+cute_engine	rank.cpp	/^namespace cute_engine{$/;"	n	file:
+cute_engine	searcher.cpp	/^namespace cute_engine{$/;"	n	file:
+cute_engine	segment.cpp	/^namespace cute_engine$/;"	n	file:
+cute_engine	util.cpp	/^namespace cute_engine{$/;"	n	file:
+cute_engine	word_dict.cpp	/^namespace cute_engine{$/;"	n	file:
+cute_engine::Collector::Collector	rank.cpp	/^Collector::Collector(Indexer* inpar) : _indexer(inpar) {$/;"	f	class:cute_engine::Collector	signature:(Indexer* inpar)
+cute_engine::Collector::get_average_length	rank.cpp	/^int Collector::get_average_length(){$/;"	f	class:cute_engine::Collector	signature:()
+cute_engine::Collector::get_doc_id	rank.cpp	/^int Collector::get_doc_id() {$/;"	f	class:cute_engine::Collector	signature:()
+cute_engine::Collector::get_doc_length	rank.cpp	/^int Collector::get_doc_length(){$/;"	f	class:cute_engine::Collector	signature:()
+cute_engine::Collector::get_next_doc	rank.cpp	/^long Collector::get_next_doc(long doc_id) {$/;"	f	class:cute_engine::Collector	signature:(long doc_id)
+cute_engine::Collector::get_query_doc_tf	rank.cpp	/^int Collector::get_query_doc_tf(){$/;"	f	class:cute_engine::Collector	signature:()
+cute_engine::Collector::get_query_idf	rank.cpp	/^double Collector::get_query_idf(){$/;"	f	class:cute_engine::Collector	signature:()
+cute_engine::Collector::get_query_tf	rank.cpp	/^int Collector::get_query_tf(){$/;"	f	class:cute_engine::Collector	signature:()
+cute_engine::Collector::get_word_id	rank.cpp	/^int Collector::get_word_id() {$/;"	f	class:cute_engine::Collector	signature:()
+cute_engine::Collector::next	rank.cpp	/^bool Collector::next() {$/;"	f	class:cute_engine::Collector	signature:()
+cute_engine::Collector::~Collector	rank.cpp	/^Collector::~Collector() {}$/;"	f	class:cute_engine::Collector	signature:()
+cute_engine::Indexer::Indexer	indexer.cpp	/^Indexer::Indexer(){$/;"	f	class:cute_engine::Indexer	signature:()
+cute_engine::Indexer::Indexer	indexer.cpp	/^Indexer::Indexer(char* path){$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+cute_engine::Indexer::add_inverted_term	indexer.cpp	/^void Indexer::add_inverted_term(const size_t& term_id, const WordItem& item) {$/;"	f	class:cute_engine::Indexer	signature:(const size_t& term_id, const WordItem& item)
+cute_engine::Indexer::build_document_info	indexer.cpp	/^void Indexer::build_document_info(const std::vector<std::string>& doc_vec, DocumentInfo& info){$/;"	f	class:cute_engine::Indexer	signature:(const std::vector<std::string>& doc_vec, DocumentInfo& info)
+cute_engine::Indexer::build_forward_index	indexer.cpp	/^void Indexer::build_forward_index(char* raw_data_path, char* output_path){$/;"	f	class:cute_engine::Indexer	signature:(char* raw_data_path, char* output_path)
+cute_engine::Indexer::build_inverted_index_from_file	indexer.cpp	/^void Indexer::build_inverted_index_from_file(char* data_path, char* dict_path, char* output_path){$/;"	f	class:cute_engine::Indexer	signature:(char* data_path, char* dict_path, char* output_path)
+cute_engine::Indexer::get_average_length	indexer.cpp	/^int Indexer::get_average_length(){$/;"	f	class:cute_engine::Indexer	signature:()
+cute_engine::Indexer::get_doc_info	indexer.cpp	/^DocumentInfo* Indexer::get_doc_info(long docid) {$/;"	f	class:cute_engine::Indexer	signature:(long docid)
+cute_engine::Indexer::get_doc_length	indexer.cpp	/^int Indexer::get_doc_length(long docid) {$/;"	f	class:cute_engine::Indexer	signature:(long docid)
+cute_engine::Indexer::get_docs_info	indexer.cpp	/^std::map<long, DocumentInfo>& Indexer::get_docs_info() {$/;"	f	class:cute_engine::Indexer	signature:()
+cute_engine::Indexer::get_file_name	indexer.cpp	/^void Indexer::get_file_name(const char* path, NAME_TYPE type, char* output_name, size_t output_name_size, int file_index) {$/;"	f	class:cute_engine::Indexer	signature:(const char* path, NAME_TYPE type, char* output_name, size_t output_name_size, int file_index)
+cute_engine::Indexer::get_inverted_posting_list	indexer.cpp	/^std::vector<InvertedPosting>& Indexer::get_inverted_posting_list() {$/;"	f	class:cute_engine::Indexer	signature:()
+cute_engine::Indexer::get_next_doc	indexer.cpp	/^bool Indexer::get_next_doc(size_t word_id, long doc_id, DocumentItem& item) {$/;"	f	class:cute_engine::Indexer	signature:(size_t word_id, long doc_id, DocumentItem& item)
+cute_engine::Indexer::get_total_doc_num	indexer.cpp	/^int Indexer::get_total_doc_num(){$/;"	f	class:cute_engine::Indexer	signature:()
+cute_engine::Indexer::get_word_info	indexer.cpp	/^DictInfo* Indexer::get_word_info(std::string token) {$/;"	f	class:cute_engine::Indexer	signature:(std::string token)
+cute_engine::Indexer::load_document_info	indexer.cpp	/^void Indexer::load_document_info(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+cute_engine::Indexer::load_index_meta_data	indexer.cpp	/^void Indexer::load_index_meta_data(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+cute_engine::Indexer::load_inverted_index	indexer.cpp	/^void Indexer::load_inverted_index() {$/;"	f	class:cute_engine::Indexer	signature:()
+cute_engine::Indexer::load_metainfo	indexer.cpp	/^void Indexer::load_metainfo(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+cute_engine::Indexer::load_term_index	indexer.cpp	/^void Indexer::load_term_index(size_t term_id) {$/;"	f	class:cute_engine::Indexer	signature:(size_t term_id)
+cute_engine::Indexer::load_worddict	indexer.cpp	/^void Indexer::load_worddict(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+cute_engine::Indexer::output_metainfo	indexer.cpp	/^void Indexer::output_metainfo(char* data_path) {$/;"	f	class:cute_engine::Indexer	signature:(char* data_path)
+cute_engine::Indexer::output_worddict	indexer.cpp	/^void Indexer::output_worddict(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+cute_engine::Indexer::~Indexer	indexer.cpp	/^Indexer::~Indexer(){$/;"	f	class:cute_engine::Indexer	signature:()
+cute_engine::Rank::Rank	rank.cpp	/^Rank::Rank(){$/;"	f	class:cute_engine::Rank	signature:()
+cute_engine::Rank::Rank	rank.cpp	/^Rank::Rank(std::vector<Collector> invec){$/;"	f	class:cute_engine::Rank	signature:(std::vector<Collector> invec)
+cute_engine::Rank::collector_sort	rank.cpp	/^bool Rank::collector_sort(Collector a,Collector b){$/;"	f	class:cute_engine::Rank	signature:(Collector a,Collector b)
+cute_engine::Rank::get_docs_score	rank.cpp	/^vector<DocScore> Rank::get_docs_score(){$/;"	f	class:cute_engine::Rank	signature:()
+cute_engine::Rank::get_next_doc	rank.cpp	/^long Rank::get_next_doc(long doc_id) {$/;"	f	class:cute_engine::Rank	signature:(long doc_id)
+cute_engine::Rank::rank_docs	rank.cpp	/^void Rank::rank_docs(){$/;"	f	class:cute_engine::Rank	signature:()
+cute_engine::Rank::score_sort	rank.cpp	/^bool Rank::score_sort(DocScore a,DocScore b){$/;"	f	class:cute_engine::Rank	signature:(DocScore a,DocScore b)
+cute_engine::Rank::set_collector_vec	rank.cpp	/^void Rank::set_collector_vec(const std::vector<Collector>& invec) {$/;"	f	class:cute_engine::Rank	signature:(const std::vector<Collector>& invec)
+cute_engine::Rank::~Rank	rank.cpp	/^Rank::~Rank(){$/;"	f	class:cute_engine::Rank	signature:()
+cute_engine::Searcher::Searcher	searcher.cpp	/^Searcher::Searcher():_pword_segment(NULL), _pindex(NULL), _prank(NULL){$/;"	f	class:cute_engine::Searcher	signature:()
+cute_engine::Searcher::Searcher	searcher.cpp	/^Searcher::Searcher(char* index_path):{$/;"	f	class:cute_engine::Searcher	signature:(char* index_path)
+cute_engine::Searcher::get_result	searcher.cpp	/^void Searcher::get_result(){$/;"	f	class:cute_engine::Searcher	signature:()
+cute_engine::Searcher::init_rank	searcher.cpp	/^void Searcher::init_rank(std::vector<Collector> &vec){$/;"	f	class:cute_engine::Searcher	signature:(std::vector<Collector> &vec)
+cute_engine::Searcher::parse_query	searcher.cpp	/^void Searcher::parse_query(string query_str) {$/;"	f	class:cute_engine::Searcher	signature:(string query_str)
+cute_engine::Searcher::query_word_sort	searcher.cpp	/^bool Searcher::query_word_sort(QueryWord a, QueryWord b) {$/;"	f	class:cute_engine::Searcher	signature:(QueryWord a, QueryWord b)
+cute_engine::Searcher::select_queryword	searcher.cpp	/^void Searcher::select_queryword(std::map<std::string, int>& token_tf, std::vector<QueryWord>& vec_query) {$/;"	f	class:cute_engine::Searcher	signature:(std::map<std::string, int>& token_tf, std::vector<QueryWord>& vec_query)
+cute_engine::Searcher::test_search	searcher.cpp	/^void Searcher::test_search(char* raw_path){$/;"	f	class:cute_engine::Searcher	signature:(char* raw_path)
+cute_engine::Searcher::~Searcher	searcher.cpp	/^Searcher::~Searcher(){$/;"	f	class:cute_engine::Searcher	signature:()
+cute_engine::Segment::Segment	segment.cpp	/^Segment::Segment(char* path)$/;"	f	class:cute_engine::Segment	signature:(char* path)
+cute_engine::Segment::init	segment.cpp	/^bool Segment::init(const char *dict_path, const int max_token_count)$/;"	f	class:cute_engine::Segment	signature:(const char *dict_path, const int max_token_count)
+cute_engine::Segment::segment	segment.cpp	/^bool Segment::segment(const char *str)$/;"	f	class:cute_engine::Segment	signature:(const char *str)
+cute_engine::Segment::segment_string	segment.cpp	/^int Segment::segment_string(char* str,std::vector<std::string>& vec){$/;"	f	class:cute_engine::Segment	signature:(char* str,std::vector<std::string>& vec)
+cute_engine::Segment::test	segment.cpp	/^void Segment::test(char* raw_data_path,char* dict_path){$/;"	f	class:cute_engine::Segment	signature:(char* raw_data_path,char* dict_path)
+cute_engine::Segment::~Segment	segment.cpp	/^Segment::~Segment()$/;"	f	class:cute_engine::Segment	signature:()
+cute_engine::SimRank::SimRank	rank.cpp	/^SimRank::SimRank(std::vector<Collector> invec):Rank(invec){$/;"	f	class:cute_engine::SimRank	signature:(std::vector<Collector> invec)
+cute_engine::SimRank::get_next_doc	rank.cpp	/^long SimRank::get_next_doc(long in_doc_id) {$/;"	f	class:cute_engine::SimRank	signature:(long in_doc_id)
+cute_engine::SimRank::get_score	rank.cpp	/^double SimRank::get_score(Collector & collector){$/;"	f	class:cute_engine::SimRank	signature:(Collector & collector)
+cute_engine::SimRank::rank_docs	rank.cpp	/^void SimRank::rank_docs(){$/;"	f	class:cute_engine::SimRank	signature:()
+cute_engine::SimRank::~SimRank	rank.cpp	/^SimRank::~SimRank(){$/;"	f	class:cute_engine::SimRank	signature:()
+cute_engine::WordDict::WordDict	word_dict.cpp	/^WordDict::WordDict(){$/;"	f	class:cute_engine::WordDict	signature:()
+cute_engine::WordDict::get_word_id	word_dict.cpp	/^int WordDict::get_word_id(string token){$/;"	f	class:cute_engine::WordDict	signature:(string token)
+cute_engine::WordDict::get_word_info	word_dict.cpp	/^DictInfo* WordDict::get_word_info(std::string token){$/;"	f	class:cute_engine::WordDict	signature:(std::string token)
+cute_engine::WordDict::load_dict	word_dict.cpp	/^void WordDict::load_dict(char* path){$/;"	f	class:cute_engine::WordDict	signature:(char* path)
+cute_engine::WordDict::output_dict	word_dict.cpp	/^void WordDict::output_dict(char* path){$/;"	f	class:cute_engine::WordDict	signature:(char* path)
+cute_engine::WordDict::~WordDict	word_dict.cpp	/^WordDict::~WordDict(){$/;"	f	class:cute_engine::WordDict	signature:()
+cute_engine::explode	util.cpp	/^    void explode(std::string str,std::string sep,std::vector<std::string> &vec){$/;"	f	namespace:cute_engine	signature:(std::string str,std::string sep,std::vector<std::string> &vec)
+cute_engine::implode	util.cpp	/^    std::string implode(std::vector<std::string> & vec,std::string sep) {$/;"	f	namespace:cute_engine	signature:(std::vector<std::string> & vec,std::string sep)
+cute_engine::serialize_doc_info	util.cpp	/^    std::string serialize_doc_info(const DocumentInfo& info){$/;"	f	namespace:cute_engine	signature:(const DocumentInfo& info)
+cute_engine::serialize_inverted_posting	util.cpp	/^    std::string serialize_inverted_posting(InvertedPosting post){$/;"	f	namespace:cute_engine	signature:(InvertedPosting post)
+cute_engine::unserialize_inverted_posting	util.cpp	/^    InvertedPosting unserialize_inverted_posting(std::string instr){$/;"	f	namespace:cute_engine	signature:(std::string instr)
+db_add_link	dict/include/ul_dict.h	/^int db_add_link( Sdict_build *pdb, Sdict_snode *pnode);$/;"	p	signature:( Sdict_build *pdb, Sdict_snode *pnode)
+db_adjust	dict/include/ul_dict.h	/^int db_adjust (Sdict_build *pdb);$/;"	p	signature:(Sdict_build *pdb)
+db_cluster	dict/include/ul_dict.h	/^int db_cluster(Sdict_build *pdb, Spagecluster *pcluster);$/;"	p	signature:(Sdict_build *pdb, Spagecluster *pcluster)
+db_creat	dict/include/ul_dict.h	/^Sdict_build *db_creat( int hash_num, int now_code );$/;"	p	signature:( int hash_num, int now_code )
+db_del	dict/include/ul_dict.h	/^int db_del( Sdict_build *pdb);$/;"	p	signature:( Sdict_build *pdb)
+db_keylist	dict/include/ul_dict.h	/^int db_keylist (Sdict_build *pdb, Skeyweight *pkey, int pkey_num);$/;"	p	signature:(Sdict_build *pdb, Skeyweight *pkey, int pkey_num)
+db_load	dict/include/ul_dict.h	/^Sdict_build *db_load( char *path, char *fname, int h_num );$/;"	p	signature:( char *path, char *fname, int h_num )
+db_load_0	dict/include/ul_dict.h	/^Sdict_build *db_load_0( char *path, char *fname, int h_num );$/;"	p	signature:( char *path, char *fname, int h_num )
+db_op1	dict/include/ul_dict.h	/^int db_op1( Sdict_build *pdb, Sdict_snode *pnode, Eop_method op_method);$/;"	p	signature:( Sdict_build *pdb, Sdict_snode *pnode, Eop_method op_method)
+db_opn	dict/include/ul_dict.h	/^int db_opn( Sdict_build *pdb, Sdict_snode *plnode, int lnum, $/;"	p	signature:( Sdict_build *pdb, Sdict_snode *plnode, int lnum, Eop_method op_method)
+db_renew	dict/include/ul_dict.h	/^int db_renew( Sdict_build *pdb);$/;"	p	signature:( Sdict_build *pdb)
+db_renew_fast	dict/include/ul_dict.h	/^int db_renew_fast(Sdict_build *pdb);$/;"	p	signature:(Sdict_build *pdb)
+db_save	dict/include/ul_dict.h	/^int db_save( Sdict_build *pdb, char *path, char *fname );$/;"	p	signature:( Sdict_build *pdb, char *path, char *fname )
+db_save_freq	dict/include/ul_dict.h	/^int db_save_freq( Sdict_build *pdb, char *path, char *fname );$/;"	p	signature:( Sdict_build *pdb, char *path, char *fname )
+db_save_link	dict/include/ul_dict.h	/^int db_save_link( Sdict_build *pdb, char *path, char *fname );$/;"	p	signature:( Sdict_build *pdb, char *path, char *fname )
+db_save_link_search	dict/include/ul_dict.h	/^int db_save_link_search( Sdict_build *pdb, char *path, char *fname );$/;"	p	signature:( Sdict_build *pdb, char *path, char *fname )
+db_stand_link	dict/include/ul_dict.h	/^int db_stand_link( Sdict_build *pdb );$/;"	p	signature:( Sdict_build *pdb )
+db_syn_add	dict/include/ul_dict.h	/^int db_syn_add( Sdict_build_syn *pdb, char *word1, char *word2 );$/;"	p	signature:( Sdict_build_syn *pdb, char *word1, char *word2 )
+db_syn_adjust	dict/include/ul_dict.h	/^int db_syn_adjust( Sdict_build_syn *pdb );$/;"	p	signature:( Sdict_build_syn *pdb )
+db_syn_construct	dict/include/ul_dict.h	/^Sdict_build_syn *db_syn_construct( char *fullpath, int hash_num, int dict_type );$/;"	p	signature:( char *fullpath, int hash_num, int dict_type )
+db_syn_construct_unidirect	dict/include/ul_dict.h	/^Sdict_build_syn *db_syn_construct_unidirect( char *fullpath, int hash_num, int dict_type );$/;"	p	signature:( char *fullpath, int hash_num, int dict_type )
+db_syn_creat	dict/include/ul_dict.h	/^Sdict_build_syn *db_syn_creat( int hash_num );$/;"	p	signature:( int hash_num )
+db_syn_del	dict/include/ul_dict.h	/^int db_syn_del( Sdict_build_syn *pdb );$/;"	p	signature:( Sdict_build_syn *pdb )
+db_syn_load	dict/include/ul_dict.h	/^Sdict_build_syn *db_syn_load( char *path, char *fname, int hash_n);$/;"	p	signature:( char *path, char *fname, int hash_n)
+db_syn_save	dict/include/ul_dict.h	/^int db_syn_save( Sdict_build_syn *pdb, char *path, char *fname );$/;"	p	signature:( Sdict_build_syn *pdb, char *path, char *fname )
+db_syn_seek	dict/include/ul_dict.h	/^int db_syn_seek( Sdict_build_syn *pdb, char *word, char *outbuf, int len );$/;"	p	signature:( Sdict_build_syn *pdb, char *word, char *outbuf, int len )
+dcp_del	dict/include/ul_dict.h	/^int dcp_del(Sdict_cphrase *dcp);$/;"	p	signature:(Sdict_cphrase *dcp)
+dcp_load	dict/include/ul_dict.h	/^Sdict_cphrase *dcp_load(char *path, char *fname, char *fsurname);$/;"	p	signature:(char *path, char *fname, char *fsurname)
+dcp_search	dict/include/ul_dict.h	/^int dcp_search(Sdict_cphrase *dcp, char *src_ph, char *des_ph);$/;"	p	signature:(Sdict_cphrase *dcp, char *src_ph, char *des_ph)
+dcp_seek	dict/include/ul_dict.h	/^int dcp_seek(Sdict_cphrase *dcp, char *src_ph, char *des_ph);$/;"	p	signature:(Sdict_cphrase *dcp, char *src_ph, char *des_ph)
+dp_build	dict/include/ul_dict.h	/^int dp_build(char *path, char *fnsrc, char *fndes);$/;"	p	signature:(char *path, char *fnsrc, char *fndes)
+dp_del	dict/include/ul_dict.h	/^int dp_del(Sdict_phrase *pd);$/;"	p	signature:(Sdict_phrase *pd)
+dp_load	dict/include/ul_dict.h	/^Sdict_phrase *dp_load(char *path, char *fname);$/;"	p	signature:(char *path, char *fname)
+dp_search	dict/include/ul_dict.h	/^int dp_search(Sdict_phrase *dp, char *ssrc, char *sdes);$/;"	p	signature:(Sdict_phrase *dp, char *ssrc, char *sdes)
+dp_seek	dict/include/ul_dict.h	/^int dp_seek(Sdict_phrase *dp, char *ssrc, char *sdes);$/;"	p	signature:(Sdict_phrase *dp, char *ssrc, char *sdes)
+dr_creat	dict/include/ul_drdict.h	/^Sdict_reclaim *dr_creat( int hash_num, int now_code );$/;"	p	signature:( int hash_num, int now_code )
+dr_del	dict/include/ul_drdict.h	/^int dr_del( Sdict_reclaim *pdb);$/;"	p	signature:( Sdict_reclaim *pdb)
+dr_op1	dict/include/ul_drdict.h	/^int dr_op1( Sdict_reclaim *pdb, Sdict_snode *pnode, Eop_method op_method);$/;"	p	signature:( Sdict_reclaim *pdb, Sdict_snode *pnode, Eop_method op_method)
+ds_del	dict/include/ul_dict.h	/^int ds_del(Sdict_search *pds);$/;"	p	signature:(Sdict_search *pds)
+ds_del_hd	dict/include/ul_dict.h	/^int ds_del_hd(Sdict_search_hd *pds);$/;"	p	signature:(Sdict_search_hd *pds)
+ds_del_mmap	dict/include/ul_dict.h	/^int ds_del_mmap(Sdict_search *pds);$/;"	p	signature:(Sdict_search *pds)
+ds_filter	dict/include/ul_dict.h	/^Sdict_build *ds_filter(Sdict_search *pds, int number);$/;"	p	signature:(Sdict_search *pds, int number)
+ds_load	dict/include/ul_dict.h	/^Sdict_search *ds_load( char *path,  char *fname );$/;"	p	signature:( char *path, char *fname )
+ds_load_hd	dict/include/ul_dict.h	/^Sdict_search_hd *ds_load_hd( char *path,  char *fname );$/;"	p	signature:( char *path, char *fname )
+ds_load_mmap	dict/include/ul_dict.h	/^Sdict_search *ds_load_mmap( char *path,  char *fname );$/;"	p	signature:( char *path, char *fname )
+ds_load_name	dict/include/ul_dict.h	/^Sdict_search *ds_load_name( char *path,  char *fname );$/;"	p	signature:( char *path, char *fname )
+ds_load_parse	dict/include/ul_dict.h	/^Sdict_search *ds_load_parse( char *path,  char *fname );$/;"	p	signature:( char *path, char *fname )
+ds_op1	dict/include/ul_dict.h	/^int ds_op1( Sdict_search *pds, Sdict_snode *pnode, Eop_method op_method);$/;"	p	signature:( Sdict_search *pds, Sdict_snode *pnode, Eop_method op_method)
+ds_opn	dict/include/ul_dict.h	/^int ds_opn( Sdict_search *pds, Sdict_snode *plnode, int lnum, $/;"	p	signature:( Sdict_search *pds, Sdict_snode *plnode, int lnum, Eop_method op_method)
+ds_reload	dict/include/ul_dict.h	/^Sdict_search *ds_reload(Sdict_search *pds, char *path, char *fname, $/;"	p	signature:(Sdict_search *pds, char *path, char *fname, char *cpath)
+ds_reload_test	dict/include/ul_dict.h	/^int ds_reload_test(Sdict_search *pds, char *path, char *fname);$/;"	p	signature:(Sdict_search *pds, char *path, char *fname)
+ds_save	dict/include/ul_dict.h	/^int ds_save(Sdict_search *pds, char *path, char *fname);$/;"	p	signature:(Sdict_search *pds, char *path, char *fname)
+ds_save_freq	dict/include/ul_dict.h	/^int ds_save_freq(Sdict_search *pds, char *path, char *fname);$/;"	p	signature:(Sdict_search *pds, char *path, char *fname)
+ds_save_parser	dict/include/ul_dict.h	/^int ds_save_parser(Sdict_search *pds, char *path, char *cpath);$/;"	p	signature:(Sdict_search *pds, char *path, char *cpath)
+ds_seek_hd	dict/include/ul_dict.h	/^int ds_seek_hd(Sdict_search_hd *pds, Sdict_snode *pnode);$/;"	p	signature:(Sdict_search_hd *pds, Sdict_snode *pnode)
+ds_syn_del	dict/include/ul_dict.h	/^int ds_syn_del( Sdict_search_syn *pds );$/;"	p	signature:( Sdict_search_syn *pds )
+ds_syn_load	dict/include/ul_dict.h	/^Sdict_search_syn  *ds_syn_load( char *path, char *fname );$/;"	p	signature:( char *path, char *fname )
+ds_syn_seek	dict/include/ul_dict.h	/^int ds_syn_seek( Sdict_search_syn *pds, char *word, char *outbuf, int len );$/;"	p	signature:( Sdict_search_syn *pds, char *word, char *outbuf, int len )
+dsur_del	dict/include/ul_dict.h	/^int dsur_del( char *dsur );$/;"	p	signature:( char *dsur )
+dsur_load	dict/include/ul_dict.h	/^char *dsur_load( char *path, char *fname );$/;"	p	signature:( char *path, char *fname )
+dsur_search	dict/include/ul_dict.h	/^int dsur_search( char *dsur, char *spstr, char *dpstr);$/;"	p	signature:( char *dsur, char *spstr, char *dpstr)
+dsur_seek	dict/include/ul_dict.h	/^int dsur_seek( char *dsur, char *spstr, char *dpstr);$/;"	p	signature:( char *dsur, char *spstr, char *dpstr)
+explode	util.cpp	/^    void explode(std::string str,std::string sep,std::vector<std::string> &vec){$/;"	f	namespace:cute_engine	signature:(std::string str,std::string sep,std::vector<std::string> &vec)
+find1	dict/include/ul_dict.h	/^	int find1;$/;"	m	struct:__anon10	access:public
+find2	dict/include/ul_dict.h	/^	int find2;$/;"	m	struct:__anon10	access:public
+get_average_length	indexer.cpp	/^int Indexer::get_average_length(){$/;"	f	class:cute_engine::Indexer	signature:()
+get_average_length	rank.cpp	/^int Collector::get_average_length(){$/;"	f	class:cute_engine::Collector	signature:()
+get_doc_id	rank.cpp	/^int Collector::get_doc_id() {$/;"	f	class:cute_engine::Collector	signature:()
+get_doc_info	indexer.cpp	/^DocumentInfo* Indexer::get_doc_info(long docid) {$/;"	f	class:cute_engine::Indexer	signature:(long docid)
+get_doc_length	indexer.cpp	/^int Indexer::get_doc_length(long docid) {$/;"	f	class:cute_engine::Indexer	signature:(long docid)
+get_doc_length	rank.cpp	/^int Collector::get_doc_length(){$/;"	f	class:cute_engine::Collector	signature:()
+get_docs_info	indexer.cpp	/^std::map<long, DocumentInfo>& Indexer::get_docs_info() {$/;"	f	class:cute_engine::Indexer	signature:()
+get_docs_score	rank.cpp	/^vector<DocScore> Rank::get_docs_score(){$/;"	f	class:cute_engine::Rank	signature:()
+get_file_name	indexer.cpp	/^void Indexer::get_file_name(const char* path, NAME_TYPE type, char* output_name, size_t output_name_size, int file_index) {$/;"	f	class:cute_engine::Indexer	signature:(const char* path, NAME_TYPE type, char* output_name, size_t output_name_size, int file_index)
+get_inverted_posting_list	indexer.cpp	/^std::vector<InvertedPosting>& Indexer::get_inverted_posting_list() {$/;"	f	class:cute_engine::Indexer	signature:()
+get_next_doc	indexer.cpp	/^bool Indexer::get_next_doc(size_t word_id, long doc_id, DocumentItem& item) {$/;"	f	class:cute_engine::Indexer	signature:(size_t word_id, long doc_id, DocumentItem& item)
+get_next_doc	rank.cpp	/^long Collector::get_next_doc(long doc_id) {$/;"	f	class:cute_engine::Collector	signature:(long doc_id)
+get_next_doc	rank.cpp	/^long Rank::get_next_doc(long doc_id) {$/;"	f	class:cute_engine::Rank	signature:(long doc_id)
+get_next_doc	rank.cpp	/^long SimRank::get_next_doc(long in_doc_id) {$/;"	f	class:cute_engine::SimRank	signature:(long in_doc_id)
+get_query_doc_tf	rank.cpp	/^int Collector::get_query_doc_tf(){$/;"	f	class:cute_engine::Collector	signature:()
+get_query_idf	rank.cpp	/^double Collector::get_query_idf(){$/;"	f	class:cute_engine::Collector	signature:()
+get_query_tf	rank.cpp	/^int Collector::get_query_tf(){$/;"	f	class:cute_engine::Collector	signature:()
+get_result	searcher.cpp	/^void Searcher::get_result(){$/;"	f	class:cute_engine::Searcher	signature:()
+get_score	rank.cpp	/^double SimRank::get_score(Collector & collector){$/;"	f	class:cute_engine::SimRank	signature:(Collector & collector)
+get_total_doc_num	indexer.cpp	/^int Indexer::get_total_doc_num(){$/;"	f	class:cute_engine::Indexer	signature:()
+get_word_id	rank.cpp	/^int Collector::get_word_id() {$/;"	f	class:cute_engine::Collector	signature:()
+get_word_id	word_dict.cpp	/^int WordDict::get_word_id(string token){$/;"	f	class:cute_engine::WordDict	signature:(string token)
+get_word_info	indexer.cpp	/^DictInfo* Indexer::get_word_info(std::string token) {$/;"	f	class:cute_engine::Indexer	signature:(std::string token)
+get_word_info	word_dict.cpp	/^DictInfo* WordDict::get_word_info(std::string token){$/;"	f	class:cute_engine::WordDict	signature:(std::string token)
+getsign_24_1	dict/include/ul_prime.h	/^unsigned int getsign_24_1(char* str);$/;"	p	signature:(char* str)
+getsign_24_2	dict/include/ul_prime.h	/^unsigned int getsign_24_2(char* str);$/;"	p	signature:(char* str)
+getsigns_24_1	dict/include/ul_prime.h	/^unsigned int getsigns_24_1(char* str,int slen);$/;"	p	signature:(char* str,int slen)
+getsigns_24_2	dict/include/ul_prime.h	/^unsigned int getsigns_24_2(char* str,int slen);$/;"	p	signature:(char* str,int slen)
+hash	dict/include/ul_dict.h	/^	Sdict_bhash	*hash;	\/\/ hash$/;"	m	struct:__anon3	access:public
+hash	dict/include/ul_dict.h	/^	Sdict_syn_bhash	*hash;	\/\/ hash$/;"	m	struct:__anon16	access:public
+hash	dict/include/ul_dict.h	/^	Shash_cphrase *hash;$/;"	m	struct:__anon12	access:public
+hash	dict/include/ul_dict.h	/^	Shash_phrase	*hash;$/;"	m	struct:__anon14	access:public
+hash	dict/include/ul_dict.h	/^	unsigned int	*hash;	\/\/ hash$/;"	m	struct:__anon18	access:public
+hash	dict/include/ul_dict.h	/^	unsigned int	*hash;	\/\/ hash$/;"	m	struct:__anon9	access:public
+hash	dict/include/ul_drdict.h	/^	Sdict_bhash	*hash;	\/\/ hash$/;"	m	struct:__anon19	access:public
+hash_num	dict/include/ul_dict.h	/^	int	hash_num;	\/\/ number of hash$/;"	m	struct:__anon16	access:public
+hash_num	dict/include/ul_dict.h	/^	int	hash_num;	\/\/ number of hash$/;"	m	struct:__anon3	access:public
+hash_num	dict/include/ul_dict.h	/^	int	hash_num;$/;"	m	struct:__anon18	access:public
+hash_num	dict/include/ul_dict.h	/^	int	hash_num;$/;"	m	struct:__anon9	access:public
+hash_num	dict/include/ul_dict.h	/^	int hash_num;$/;"	m	struct:__anon10	access:public
+hash_num	dict/include/ul_drdict.h	/^	int	hash_num;	\/\/ number of hash$/;"	m	struct:__anon19	access:public
+implode	util.cpp	/^    std::string implode(std::vector<std::string> & vec,std::string sep) {$/;"	f	namespace:cute_engine	signature:(std::vector<std::string> & vec,std::string sep)
+index2	dict/include/ul_dict.h	/^	void		*index2;$/;"	m	struct:__anon7	access:public
+init	segment.cpp	/^bool Segment::init(const char *dict_path, const int max_token_count)$/;"	f	class:cute_engine::Segment	signature:(const char *dict_path, const int max_token_count)
+init_rank	searcher.cpp	/^void Searcher::init_rank(std::vector<Collector> &vec){$/;"	f	class:cute_engine::Searcher	signature:(std::vector<Collector> &vec)
+ip_region	dict/include/ul_index.h	/^	short ip_region;	\/\/ ip region$/;"	m	struct:__anon22	access:public
+key	dict/include/ul_dict.h	/^	Skeyweight 	*key;$/;"	m	struct:__anon5	access:public
+lastmod_time	dict/include/ul_index.h	/^	u_int lastmod_time;	\/\/ lastmodify time $/;"	m	struct:__anon22	access:public
+limit_index	dict/include/ul_index.h	/^int limit_index(char *path);$/;"	p	signature:(char *path)
+load_dict	word_dict.cpp	/^void WordDict::load_dict(char* path){$/;"	f	class:cute_engine::WordDict	signature:(char* path)
+load_document_info	indexer.cpp	/^void Indexer::load_document_info(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+load_index_meta_data	indexer.cpp	/^void Indexer::load_index_meta_data(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+load_inverted_index	indexer.cpp	/^void Indexer::load_inverted_index() {$/;"	f	class:cute_engine::Indexer	signature:()
+load_metainfo	indexer.cpp	/^void Indexer::load_metainfo(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+load_term_index	indexer.cpp	/^void Indexer::load_term_index(size_t term_id) {$/;"	f	class:cute_engine::Indexer	signature:(size_t term_id)
+load_worddict	indexer.cpp	/^void Indexer::load_worddict(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+merge_all_index	dict/include/ul_index.h	/^int merge_all_index( char *path, char *sf_name, char *lf_name, char *df_name,$/;"	p	signature:( char *path, char *sf_name, char *lf_name, char *df_name, char *fn_lweight, char *fn_idf)
+merge_link_index	dict/include/ul_index.h	/^int merge_link_index(char *path, char *fnlink, char *fnindex, char *fndes,$/;"	p	signature:(char *path, char *fnlink, char *fnindex, char *fndes, char *dict, int per100)
+merge_one_info	dict/include/ul_index.h	/^int merge_one_info( char *path, char *sfile, int sstart, int send,$/;"	p	signature:( char *path, char *sfile, int sstart, int send, char *dfile, int dsize)
+merge_part_index	dict/include/ul_index.h	/^int merge_part_index( char *path, char *sf_name, char *df_name,$/;"	p	signature:( char *path, char *sf_name, char *df_name, char *lweight, char *fn_idf )
+merge_part_info	dict/include/ul_index.h	/^int merge_part_info( char *path, char *sf_disp, char *df_disp,$/;"	p	signature:( char *path, char *sf_disp, char *df_disp, char *sf_brf, char *df_brf, char *sf_cache, char *df_cache)
+nblock	dict/include/ul_dict.h	/^	Sdict_bnode_block	*nblock;	\/\/first block$/;"	m	struct:__anon3	access:public
+nblock	dict/include/ul_dict.h	/^	Sdict_syn_bnode_block	*nblock;	\/\/ first node block$/;"	m	struct:__anon16	access:public
+nblock	dict/include/ul_drdict.h	/^	Sdict_bnode_block	*nblock;	\/\/first block$/;"	m	struct:__anon19	access:public
+next	dict/include/ul_dict.h	/^	struct 	ss_dict_build_node *next;	\/\/next node$/;"	m	struct:ss_dict_build_node	typeref:struct:ss_dict_build_node::ss_dict_build_node	access:public
+next	dict/include/ul_dict.h	/^	struct 	ss_dict_build_syn_node *next;	\/\/next node$/;"	m	struct:ss_dict_build_syn_node	typeref:struct:ss_dict_build_syn_node::ss_dict_build_syn_node	access:public
+next	dict/include/ul_dict.h	/^	struct ss_dict_build_node_block	*next;	\/\/next block$/;"	m	struct:ss_dict_build_node_block	typeref:struct:ss_dict_build_node_block::ss_dict_build_node_block	access:public
+next	dict/include/ul_dict.h	/^	struct ss_dict_syn_buffer_block	*next;	\/\/next block$/;"	m	struct:ss_dict_syn_buffer_block	typeref:struct:ss_dict_syn_buffer_block::ss_dict_syn_buffer_block	access:public
+next	dict/include/ul_dict.h	/^	struct ss_dict_syn_build_node_block	*next;	\/\/next block$/;"	m	struct:ss_dict_syn_build_node_block	typeref:struct:ss_dict_syn_build_node_block::ss_dict_syn_build_node_block	access:public
+next	rank.cpp	/^bool Collector::next() {$/;"	f	class:cute_engine::Collector	signature:()
+node	dict/include/ul_dict.h	/^	Sdict_snode	*node;	\/\/ nodes$/;"	m	struct:__anon9	access:public
+node	dict/include/ul_dict.h	/^	Sdict_syn_snode	*node;	\/\/ nodes$/;"	m	struct:__anon18	access:public
+node_avail	dict/include/ul_dict.h	/^	int			node_avail;	\/\/ available node_num in cur_nblock$/;"	m	struct:__anon16	access:public
+node_avail	dict/include/ul_dict.h	/^	int			node_avail;	\/\/avail node_num in cur_b$/;"	m	struct:__anon3	access:public
+node_avail	dict/include/ul_drdict.h	/^	int			node_avail;	\/\/avail node_num in cur_b$/;"	m	struct:__anon19	access:public
+node_num	dict/include/ul_dict.h	/^	int	node_num;	\/\/ number of nodes$/;"	m	struct:__anon16	access:public
+node_num	dict/include/ul_dict.h	/^	int	node_num;	\/\/ number of nodes$/;"	m	struct:__anon3	access:public
+node_num	dict/include/ul_dict.h	/^	int	node_num;$/;"	m	struct:__anon18	access:public
+node_num	dict/include/ul_dict.h	/^	int	node_num;$/;"	m	struct:__anon9	access:public
+node_num	dict/include/ul_dict.h	/^	int node_num;$/;"	m	struct:__anon10	access:public
+node_num	dict/include/ul_drdict.h	/^	int	node_num;	\/\/ number of nodes$/;"	m	struct:__anon19	access:public
+nodes	dict/include/ul_dict.h	/^	Sdict_bnode nodes[NODE_BLOCK_NUM];	\/\/block of nodes, for build$/;"	m	struct:ss_dict_build_node_block	access:public
+nodes	dict/include/ul_dict.h	/^	Sdict_syn_bnode nodes[NODE_BLOCK_NUM];	\/\/block of nodes, for build$/;"	m	struct:ss_dict_syn_build_node_block	access:public
+nrbufblock	dict/include/ul_dict.h	/^	int			nrbufblock;	\/\/ number of buffer blocks$/;"	m	struct:__anon16	access:public
+num	dict/include/ul_dict.h	/^	int		num;$/;"	m	struct:__anon7	access:public
+num	dict/include/ul_dict.h	/^	int 		num;$/;"	m	struct:__anon5	access:public
+num	dict/include/ul_dict.h	/^	int num;$/;"	m	struct:__anon11	access:public
+num	dict/include/ul_dict.h	/^	int num;$/;"	m	struct:__anon13	access:public
+num	dict/include/ul_dict.h	/^	unsigned int 	*num;	\/\/ number of nodes in hash entries$/;"	m	struct:__anon18	access:public
+num	dict/include/ul_dict.h	/^	unsigned int 	*num;	\/\/ number of nodes in hash entries$/;"	m	struct:__anon9	access:public
+num	dict/include/ul_index.h	/^	int num;	\/\/ number of this index$/;"	m	struct:__anon20	access:public
+off	dict/include/ul_dict.h	/^	int off;$/;"	m	struct:__anon11	access:public
+off	dict/include/ul_dict.h	/^	int off;$/;"	m	struct:__anon13	access:public
+off	dict/include/ul_index.h	/^	int off; 	\/\/ offset in index2$/;"	m	struct:__anon20	access:public
+other	dict/include/ul_dict.h	/^	u_int 	other;	\/\/(7:lowest_w+25:freq)$/;"	m	struct:__anon8	access:public
+other	dict/include/ul_dict.h	/^	u_int 	other;	\/\/lowest_weight(7) + frequence(25)$/;"	m	struct:ss_dict_build_node	access:public
+output_dict	word_dict.cpp	/^void WordDict::output_dict(char* path){$/;"	f	class:cute_engine::WordDict	signature:(char* path)
+output_metainfo	indexer.cpp	/^void Indexer::output_metainfo(char* data_path) {$/;"	f	class:cute_engine::Indexer	signature:(char* data_path)
+output_worddict	indexer.cpp	/^void Indexer::output_worddict(char* path) {$/;"	f	class:cute_engine::Indexer	signature:(char* path)
+page_cluster	dict/include/ul_dict.h	/^int page_cluster(Sdict_snode *pnode, int node_num, Spagecluster *pcluster);$/;"	p	signature:(Sdict_snode *pnode, int node_num, Spagecluster *pcluster)
+parse_query	searcher.cpp	/^void Searcher::parse_query(string query_str) {$/;"	f	class:cute_engine::Searcher	signature:(string query_str)
+pdword	dict/include/ul_dict.h	/^	Sdict_build		*pdword;	\/\/ word dictionary$/;"	m	struct:__anon16	access:public
+pdword	dict/include/ul_dict.h	/^	Sdict_search	*pdword;\/\/ word dictionary$/;"	m	struct:__anon18	access:public
+phrase	dict/include/ul_dict.h	/^	char		*phrase;$/;"	m	struct:__anon14	access:public
+phrase	dict/include/ul_dict.h	/^	unsigned char *phrase;$/;"	m	struct:__anon12	access:public
+pnode	dict/include/ul_dict.h	/^	Sdict_bnode	*pnode;	\/\/hash table$/;"	m	struct:__anon2	access:public
+pnode	dict/include/ul_dict.h	/^	Sdict_syn_bnode	*pnode;	\/\/hash table$/;"	m	struct:__anon15	access:public
+pre_creat_search_dict	dict/include/ul_dict.h	/^int pre_creat_search_dict(char *path, char *fnold_dict, char *fnnew_dict,$/;"	p	signature:(char *path, char *fnold_dict, char *fnnew_dict, char *fn_dbfreq, char *fn_dsfreq)
+query_word_sort	searcher.cpp	/^bool Searcher::query_word_sort(QueryWord a, QueryWord b) {$/;"	f	class:cute_engine::Searcher	signature:(QueryWord a, QueryWord b)
+rank_docs	rank.cpp	/^void Rank::rank_docs(){$/;"	f	class:cute_engine::Rank	signature:()
+rank_docs	rank.cpp	/^void SimRank::rank_docs(){$/;"	f	class:cute_engine::SimRank	signature:()
+rebuild_dict1	dict/include/ul_index.h	/^int rebuild_dict1(char *path, int cur_ind);$/;"	p	signature:(char *path, int cur_ind)
+rebuild_dict_filter	dict/include/ul_index.h	/^int rebuild_dict_filter(char *path, char *dbase, char *dpre, char *dnew,$/;"	p	signature:(char *path, char *dbase, char *dpre, char *dnew, int lowest)
+rebuild_dictn	dict/include/ul_index.h	/^int rebuild_dictn(char *path, int cur_times);$/;"	p	signature:(char *path, int cur_times)
+rebuild_url_dict	dict/include/ul_index.h	/^int rebuild_url_dict(char *path, char *preurl, char *nowurl, char *fninv,$/;"	p	signature:(char *path, char *preurl, char *nowurl, char *fninv, int init_num, int build_mode)
+rebuild_url_inv	dict/include/ul_index.h	/^int rebuild_url_inv(char *path, char *preurl, char *nowurl, char *fninv);$/;"	p	signature:(char *path, char *preurl, char *nowurl, char *fninv)
+reclaim_node	dict/include/ul_drdict.h	/^	Sdict_bnode *reclaim_node;$/;"	m	struct:__anon19	access:public
+rept	dict/include/ul_dict.h	/^	int		*rept;$/;"	m	struct:__anon7	access:public
+reweight_term	dict/include/ul_index.h	/^int reweight_term(char *path, char *fterm, char *fbrief);$/;"	p	signature:(char *path, char *fterm, char *fbrief)
+score_sort	rank.cpp	/^bool Rank::score_sort(DocScore a,DocScore b){$/;"	f	class:cute_engine::Rank	signature:(DocScore a,DocScore b)
+segment	segment.cpp	/^bool Segment::segment(const char *str)$/;"	f	class:cute_engine::Segment	signature:(const char *str)
+segment_string	segment.cpp	/^int Segment::segment_string(char* str,std::vector<std::string>& vec){$/;"	f	class:cute_engine::Segment	signature:(char* str,std::vector<std::string>& vec)
+select_queryword	searcher.cpp	/^void Searcher::select_queryword(std::map<std::string, int>& token_tf, std::vector<QueryWord>& vec_query) {$/;"	f	class:cute_engine::Searcher	signature:(std::map<std::string, int>& token_tf, std::vector<QueryWord>& vec_query)
+serialize_doc_info	util.cpp	/^    std::string serialize_doc_info(const DocumentInfo& info){$/;"	f	namespace:cute_engine	signature:(const DocumentInfo& info)
+serialize_inverted_posting	util.cpp	/^    std::string serialize_inverted_posting(InvertedPosting post){$/;"	f	namespace:cute_engine	signature:(InvertedPosting post)
+set_collector_vec	rank.cpp	/^void Rank::set_collector_vec(const std::vector<Collector>& invec) {$/;"	f	class:cute_engine::Rank	signature:(const std::vector<Collector>& invec)
+sign1	dict/include/ul_dict.h	/^	u_int 	sign1;		\/\/signature 1$/;"	m	struct:__anon8	access:public
+sign1	dict/include/ul_dict.h	/^	u_int 	sign1;	\/\/signature 1$/;"	m	struct:ss_dict_build_node	access:public
+sign1	dict/include/ul_dict.h	/^	u_int 	sign1;	\/\/signatures of word 1$/;"	m	struct:__anon17	access:public
+sign1	dict/include/ul_dict.h	/^	u_int 	sign1;	\/\/signatures of word 1$/;"	m	struct:ss_dict_build_syn_node	access:public
+sign1	dict/include/ul_dict.h	/^	u_int sign1;$/;"	m	struct:__anon4	access:public
+sign2	dict/include/ul_dict.h	/^	u_int 	sign2;		\/\/signature 2$/;"	m	struct:__anon8	access:public
+sign2	dict/include/ul_dict.h	/^	u_int 	sign2;	\/\/signature 2$/;"	m	struct:ss_dict_build_node	access:public
+sign2	dict/include/ul_dict.h	/^	u_int 	sign2;$/;"	m	struct:__anon17	access:public
+sign2	dict/include/ul_dict.h	/^	u_int 	sign2;$/;"	m	struct:ss_dict_build_syn_node	access:public
+sign2	dict/include/ul_dict.h	/^	u_int sign2;$/;"	m	struct:__anon4	access:public
+sign3	dict/include/ul_dict.h	/^	u_int	sign3;	\/\/signatures of word 2$/;"	m	struct:__anon17	access:public
+sign3	dict/include/ul_dict.h	/^	u_int	sign3;	\/\/signatures of word 2$/;"	m	struct:ss_dict_build_syn_node	access:public
+sign4	dict/include/ul_dict.h	/^	u_int	sign4;$/;"	m	struct:__anon17	access:public
+sign4	dict/include/ul_dict.h	/^	u_int	sign4;$/;"	m	struct:ss_dict_build_syn_node	access:public
+site_sign1	dict/include/ul_index.h	/^	u_int site_sign1;	\/\/ signature of the site$/;"	m	struct:__anon22	access:public
+site_sign2	dict/include/ul_index.h	/^	u_int site_sign2;	\/\/ signature of the site$/;"	m	struct:__anon22	access:public
+ss_dict_build_node	dict/include/ul_dict.h	/^struct ss_dict_build_node{$/;"	s
+ss_dict_build_node::code	dict/include/ul_dict.h	/^	int 	code;	\/\/term code$/;"	m	struct:ss_dict_build_node	access:public
+ss_dict_build_node::next	dict/include/ul_dict.h	/^	struct 	ss_dict_build_node *next;	\/\/next node$/;"	m	struct:ss_dict_build_node	typeref:struct:ss_dict_build_node::ss_dict_build_node	access:public
+ss_dict_build_node::other	dict/include/ul_dict.h	/^	u_int 	other;	\/\/lowest_weight(7) + frequence(25)$/;"	m	struct:ss_dict_build_node	access:public
+ss_dict_build_node::sign1	dict/include/ul_dict.h	/^	u_int 	sign1;	\/\/signature 1$/;"	m	struct:ss_dict_build_node	access:public
+ss_dict_build_node::sign2	dict/include/ul_dict.h	/^	u_int 	sign2;	\/\/signature 2$/;"	m	struct:ss_dict_build_node	access:public
+ss_dict_build_node_block	dict/include/ul_dict.h	/^struct ss_dict_build_node_block{$/;"	s
+ss_dict_build_node_block::next	dict/include/ul_dict.h	/^	struct ss_dict_build_node_block	*next;	\/\/next block$/;"	m	struct:ss_dict_build_node_block	typeref:struct:ss_dict_build_node_block::ss_dict_build_node_block	access:public
+ss_dict_build_node_block::nodes	dict/include/ul_dict.h	/^	Sdict_bnode nodes[NODE_BLOCK_NUM];	\/\/block of nodes, for build$/;"	m	struct:ss_dict_build_node_block	access:public
+ss_dict_build_syn_node	dict/include/ul_dict.h	/^struct ss_dict_build_syn_node{$/;"	s
+ss_dict_build_syn_node::next	dict/include/ul_dict.h	/^	struct 	ss_dict_build_syn_node *next;	\/\/next node$/;"	m	struct:ss_dict_build_syn_node	typeref:struct:ss_dict_build_syn_node::ss_dict_build_syn_node	access:public
+ss_dict_build_syn_node::sign1	dict/include/ul_dict.h	/^	u_int 	sign1;	\/\/signatures of word 1$/;"	m	struct:ss_dict_build_syn_node	access:public
+ss_dict_build_syn_node::sign2	dict/include/ul_dict.h	/^	u_int 	sign2;$/;"	m	struct:ss_dict_build_syn_node	access:public
+ss_dict_build_syn_node::sign3	dict/include/ul_dict.h	/^	u_int	sign3;	\/\/signatures of word 2$/;"	m	struct:ss_dict_build_syn_node	access:public
+ss_dict_build_syn_node::sign4	dict/include/ul_dict.h	/^	u_int	sign4;$/;"	m	struct:ss_dict_build_syn_node	access:public
+ss_dict_syn_buffer_block	dict/include/ul_dict.h	/^struct ss_dict_syn_buffer_block{$/;"	s
+ss_dict_syn_buffer_block::buf	dict/include/ul_dict.h	/^	char	buf[WORDBUFSIZE];	\/\/buffer block for words$/;"	m	struct:ss_dict_syn_buffer_block	access:public
+ss_dict_syn_buffer_block::next	dict/include/ul_dict.h	/^	struct ss_dict_syn_buffer_block	*next;	\/\/next block$/;"	m	struct:ss_dict_syn_buffer_block	typeref:struct:ss_dict_syn_buffer_block::ss_dict_syn_buffer_block	access:public
+ss_dict_syn_build_node_block	dict/include/ul_dict.h	/^struct ss_dict_syn_build_node_block{$/;"	s
+ss_dict_syn_build_node_block::next	dict/include/ul_dict.h	/^	struct ss_dict_syn_build_node_block	*next;	\/\/next block$/;"	m	struct:ss_dict_syn_build_node_block	typeref:struct:ss_dict_syn_build_node_block::ss_dict_syn_build_node_block	access:public
+ss_dict_syn_build_node_block::nodes	dict/include/ul_dict.h	/^	Sdict_syn_bnode nodes[NODE_BLOCK_NUM];	\/\/block of nodes, for build$/;"	m	struct:ss_dict_syn_build_node_block	access:public
+surname	dict/include/ul_dict.h	/^	char	      *surname;$/;"	m	struct:__anon12	access:public
+term_code	dict/include/ul_index.h	/^	u_int term_code;$/;"	m	struct:__anon24	access:public
+term_sign1	dict/include/ul_index.h	/^	u_int term_sign1;$/;"	m	struct:__anon23	access:public
+term_sign2	dict/include/ul_index.h	/^	u_int term_sign2;$/;"	m	struct:__anon23	access:public
+test	segment.cpp	/^void Segment::test(char* raw_data_path,char* dict_path){$/;"	f	class:cute_engine::Segment	signature:(char* raw_data_path,char* dict_path)
+test_search	searcher.cpp	/^void Searcher::test_search(char* raw_path){$/;"	f	class:cute_engine::Searcher	signature:(char* raw_path)
+trunc_index2	dict/include/ul_index.h	/^int trunc_index2(u_int *pindex2, int *pind_num);$/;"	p	signature:(u_int *pindex2, int *pind_num)
+unserialize_inverted_posting	util.cpp	/^    InvertedPosting unserialize_inverted_posting(std::string instr){$/;"	f	namespace:cute_engine	signature:(std::string instr)
+url_code	dict/include/ul_index.h	/^	unsigned url_code : 25;$/;"	m	struct:__anon24	access:public
+url_no	dict/include/ul_index.h	/^	unsigned url_no : 25;	\/\/ url_no$/;"	m	struct:__anon21	access:public
+url_num_in_term	dict/include/ul_index.h	/^int url_num_in_term(u_int *pind2, int num);$/;"	p	signature:(u_int *pind2, int num)
+url_sign1	dict/include/ul_index.h	/^	u_int url_sign1;$/;"	m	struct:__anon23	access:public
+url_sign2	dict/include/ul_index.h	/^	u_int url_sign2;$/;"	m	struct:__anon23	access:public
+urlno	dict/include/ul_dict.h	/^	unsigned int	urlno;$/;"	m	struct:__anon6	access:public
+weight	dict/include/ul_dict.h	/^	int weight;$/;"	m	struct:__anon4	access:public
+weight	dict/include/ul_dict.h	/^	unsigned int	weight;$/;"	m	struct:__anon6	access:public
+weight	dict/include/ul_index.h	/^	u_int weight;$/;"	m	struct:__anon23	access:public
+weight	dict/include/ul_index.h	/^	unsigned weight : 7;$/;"	m	struct:__anon24	access:public
+weight	dict/include/ul_index.h	/^ 	unsigned weight : 7;	\/\/ weight$/;"	m	struct:__anon21	access:public
+wordbuffer	dict/include/ul_dict.h	/^	char		*wordbuffer;$/;"	m	struct:__anon18	access:public
+words	dict/include/ul_dict.h	/^	int			words;$/;"	m	struct:__anon16	access:public
+~Collector	rank.cpp	/^Collector::~Collector() {}$/;"	f	class:cute_engine::Collector	signature:()
+~Indexer	indexer.cpp	/^Indexer::~Indexer(){$/;"	f	class:cute_engine::Indexer	signature:()
+~Rank	rank.cpp	/^Rank::~Rank(){$/;"	f	class:cute_engine::Rank	signature:()
+~Searcher	searcher.cpp	/^Searcher::~Searcher(){$/;"	f	class:cute_engine::Searcher	signature:()
+~Segment	segment.cpp	/^Segment::~Segment()$/;"	f	class:cute_engine::Segment	signature:()
+~SimRank	rank.cpp	/^SimRank::~SimRank(){$/;"	f	class:cute_engine::SimRank	signature:()
+~WordDict	word_dict.cpp	/^WordDict::~WordDict(){$/;"	f	class:cute_engine::WordDict	signature:()

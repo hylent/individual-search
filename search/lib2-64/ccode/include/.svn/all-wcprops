@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/lib2-64/!svn/ver/1147/tags/ccode/ccode_3-5-8-3_PD_BL/include
+END
+ul_ccode.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/lib2-64/!svn/ver/1147/tags/ccode/ccode_3-5-8-3_PD_BL/include/ul_ccode.h
+END
+ul_iconv.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/lib2-64/!svn/ver/1147/tags/ccode/ccode_3-5-8-3_PD_BL/include/ul_iconv.h
+END
+ul_ccode_query_lang.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/lib2-64/!svn/ver/1147/tags/ccode/ccode_3-5-8-3_PD_BL/include/ul_ccode_query_lang.h
+END
+ul_ccode_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/lib2-64/!svn/ver/1147/tags/ccode/ccode_3-5-8-3_PD_BL/include/ul_ccode_string.h
+END
+ccode_report.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/lib2-64/!svn/ver/1147/tags/ccode/ccode_3-5-8-3_PD_BL/include/ccode_report.h
+END

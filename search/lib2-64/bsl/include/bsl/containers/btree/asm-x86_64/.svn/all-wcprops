@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/asm-x86_64
+END
+df_bitops.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/containers/btree/asm-x86_64/df_bitops.h
+END

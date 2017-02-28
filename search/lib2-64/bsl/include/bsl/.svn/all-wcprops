@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl
+END
+pool.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/pool.h
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/list.h
+END
+ShallowCopyString.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/ShallowCopyString.h
+END
+set.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/set.h
+END
+map.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/map.h
+END
+exception.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/exception.h
+END
+btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/btree.h
+END
+ResourcePool.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/ResourcePool.h
+END
+AutoBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/AutoBuffer.h
+END
+BinBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/BinBuffer.h
+END
+deque.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/deque.h
+END
+string.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/string.h
+END
+check_cast.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/lib2-64/!svn/ver/2252/tags/bsl/bsl_1-1-22-0_PD_BL/include/bsl/check_cast.h
+END

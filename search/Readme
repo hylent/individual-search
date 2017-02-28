@@ -1,0 +1,66 @@
+[使用leveldb需要snappy库的支持]
+#export LIBRARY_PATH=/data/home/caolin/local/snappy/lib/
+#export CPATH=/data/home/caolin/local/snappy/include/
+
+【项目的目的】
+给定query, 给出title相关的十条结果, 按相关性排序
+要求：
+a 按照相关性排序
+b 只考虑title本身
+c 结果响应时间不超过1秒
+
+
+【目录结构】
+1. bin : 
+bin文件夹中放置的是二进制可执行文件，未来你编制的程序也需要放置到这个文件夹中。
+
+2. corpus :
+包含用于构建、评估搜索引擎的语料
+格式：query title url label
+
+3. doc :
+doc存放这项目的参考文章： “The-Anatomy-of-a-Search-Engine”，请把你的设计文档也放在这个目录下
+
+4. include，process，test:
+这三个目录用来存放代码，include文件夹存放头文件，process文件夹存放与项目相关的CPP文件，而test文件夹存放你所写的用以验证你想法的程序文件。
+当前存有切词的demo，仅供参考
+
+5. lib2-64
+这个目录存放着一些常用的库文件，比如ullib
+
+6. wordict
+用来分词的字典目录
+
+7. index
+索引文件目录，你在程序过程中所生成的正排倒排索引文件都放在这个目录中
+
+【评估方法】
+1. ndcg@3指标
+2. 请使用标准评估脚本和评估集合
+3. evaluate.py为评估脚本，用法: ./evaluate.py ideal_rank_file real_rank_file，其中，ideal_rank_file为理想排序结果，real_rank_file为你策略的排序结果
+4. 运行评估脚本后，会生成debug.result文件，用户分析case
+
+
+【你所编写的程序】
+包含三个部分：
+1. 建立正排表
+2. 建立倒排表
+3. 搜索主程序
+
+【进度要求】
+练习可以分两周来做：
+
+第一周：
+1. 构建索引、搜索主程序，给出简单ranking算法（比如tf * idf）
+2. 搜索系统可以运行
+
+第二周， 思考如何优化ranking系统：
+1. 可以考虑，tf, idf
+2. offset
+3. 模拟term重要性
+4. 等等
+
+【审核标准】
+1. 单次搜索的平均响应时间不超过100ms
+2. 每一轮ranking策略的迭代需要有case分析，做到有理有据，不盲目优化
+3. 在系统中加入debug信息，即可以看到排序结果的由来。

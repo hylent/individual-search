@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL
+END
+odict.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/odict.cpp
+END
+main0.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/main0.cpp
+END
+main1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/main1.cpp
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/ChangeLog
+END
+main2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/main2.cpp
+END
+main3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/main3.cpp
+END
+odict.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/odict.h
+END
+mass_data_save_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/mass_data_save_test.cpp
+END
+odict.deps
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/odict.deps
+END
+odict.prj
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/odict.prj
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/README
+END
+test_odb_64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/test_odb_64.cpp
+END
+Makefile.32
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/Makefile.32
+END
+Makefile.64
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/Makefile.64
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/Makefile
+END
+test_odb_128.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/public/!svn/ver/11266/tags/odict/odict_1-1-4-2_PD_BL/test_odb_128.cpp
+END

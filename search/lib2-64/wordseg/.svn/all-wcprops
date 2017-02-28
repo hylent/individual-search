@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/lib2-64/!svn/ver/2976/tags/wordseg/wordseg_3-1-8-1_PD_BL
+END
+isegment.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/lib2-64/!svn/ver/2976/tags/wordseg/wordseg_3-1-8-1_PD_BL/isegment.h
+END
+libwordseg.so
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/lib2-64/!svn/ver/2976/tags/wordseg/wordseg_3-1-8-1_PD_BL/libwordseg.so
+END
+scwdef.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/lib2-64/!svn/ver/2976/tags/wordseg/wordseg_3-1-8-1_PD_BL/scwdef.h
+END
+libsegment.a
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/lib2-64/!svn/ver/2976/tags/wordseg/wordseg_3-1-8-1_PD_BL/libsegment.a
+END
+property.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/lib2-64/!svn/ver/2976/tags/wordseg/wordseg_3-1-8-1_PD_BL/property.h
+END
